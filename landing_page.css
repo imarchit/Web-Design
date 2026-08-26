@@ -8,6 +8,7 @@
     color:#FFD700;
     text-align:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:180%;
 }
 
 .Name{
@@ -23,7 +24,7 @@
 .About{
     color:#f3f3f7;
     box-sizing:border-box;
-    height:80px;
+    height:100px;
     padding:30px;
     text-align:center;
 
@@ -103,20 +104,28 @@ footer{
 nav{
     display:flex;
     justify-content:space-evenly;
-    border:2px solid #faf9f9;
+    border:2px solid #ffff;
     border-radius:20px;
-    height:30px;
-    box-align:center;
+    height:20px;
+}
+
+a{
+    color:#FFD700;
+}
+
+.notice_head{
+    color:#FFD700;
+    text-align:center;
+    font-size:180%;
 }
 
 .notice{
-    color:#FFD700;
-    text-align:center;
-}
-
-.n{
     border:2px solid #efeeeb;
     border-radius:20px;
-    border-top:2px solid #efeeeb;
-     border-bottom:2px solid #efeeeb;
+}
+
+
+.n{
+    color:white;
+    text-align:center;
 }

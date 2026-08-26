@@ -89,10 +89,11 @@ form{
     width:400px;
     padding:30px;
     margin:50px auto;
-    background-color:white;
+    background-color:rgb(243, 215, 105);
     border-radius:20px;
     text-align:center;
     font-size:larger;
+    font-family:'Times New Roman', Times, serif;
 
 }
 
@@ -128,4 +129,22 @@ a{
 .n{
     color:white;
     text-align:center;
+}
+
+.course{
+    color:#070707;
+    text-align:left;
+}
+
+
+.D{
+    color:#FFD700;
+    text-align:center;
+}
+
+.box-container2{
+    width:50%;
+    display:flex;
+    gap:10px;
+    justify-content:space-between;
 }

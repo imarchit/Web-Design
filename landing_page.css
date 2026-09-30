@@ -55,7 +55,7 @@
     width:200px;
     padding:30px;
     background-color:rgb(231, 236, 183);
-    border:2px solid #333;
+    border:2px solid #f7f2f2;
     border-radius:20px;
 }
 
@@ -63,6 +63,7 @@
     color:rgb(0, 0, 0);
     text-align:center;
 }
+
 
 .b2{
     color:rgb(0, 0, 0);
@@ -105,14 +106,19 @@ footer{
 nav{
     display:flex;
     justify-content:space-evenly;
-    border:2px solid #ffff;
     border-radius:20px;
     height:20px;
 }
 
 a{
     color:#FFD700;
+    text-decoration:none;
 }
+
+a:hover{
+    color:aqua;
+    font-size:20px;
+}   
 
 .notice_head{
     color:#FFD700;
@@ -121,7 +127,6 @@ a{
 }
 
 .notice{
-    border:2px solid #efeeeb;
     border-radius:20px;
 }
 
